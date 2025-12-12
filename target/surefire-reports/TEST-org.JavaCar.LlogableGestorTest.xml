@@ -3,7 +3,7 @@
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/alex/Documents/JavaCar/target/test-classes:/Users/alex/Documents/JavaCar/target/classes:/Users/alex/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/alex/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/alex/.m2/repository/org/junit/vintage/junit-vintage-engine/5.8.1/junit-vintage-engine-5.8.1.jar:/Users/alex/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/alex/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/alex/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/alex/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="java.class.path" value="/Users/alex/Documents/GitHub/JavaCar/target/test-classes:/Users/alex/Documents/GitHub/JavaCar/target/classes:/Users/alex/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/alex/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/alex/.m2/repository/org/junit/vintage/junit-vintage-engine/5.8.1/junit-vintage-engine-5.8.1.jar:/Users/alex/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/alex/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/alex/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/alex/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/alex/Documents/JavaCar/target/surefire/surefirebooter-20251212120035601_3.jar /Users/alex/Documents/JavaCar/target/surefire 2025-12-12T12-00-35_559-jvmRun1 surefire-20251212120035601_1tmp surefire_0-20251212120035601_2tmp"/>
+    <property name="sun.java.command" value="/Users/alex/Documents/GitHub/JavaCar/target/surefire/surefirebooter-20251212120652566_3.jar /Users/alex/Documents/GitHub/JavaCar/target/surefire 2025-12-12T12-06-52_528-jvmRun1 surefire-20251212120652566_1tmp surefire_0-20251212120652566_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/alex/Documents/JavaCar/target/test-classes:/Users/alex/Documents/JavaCar/target/classes:/Users/alex/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/alex/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/alex/.m2/repository/org/junit/vintage/junit-vintage-engine/5.8.1/junit-vintage-engine-5.8.1.jar:/Users/alex/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/alex/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/alex/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/alex/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/alex/Documents/GitHub/JavaCar/target/test-classes:/Users/alex/Documents/GitHub/JavaCar/target/classes:/Users/alex/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/alex/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/alex/.m2/repository/org/junit/vintage/junit-vintage-engine/5.8.1/junit-vintage-engine-5.8.1.jar:/Users/alex/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/alex/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/alex/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/alex/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/alex"/>
     <property name="user.language" value="es"/>
@@ -23,12 +23,12 @@
     <property name="java.version.date" value="2025-10-21"/>
     <property name="java.home" value="/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/alex/Documents/JavaCar"/>
+    <property name="basedir" value="/Users/alex/Documents/GitHub/JavaCar"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/alex/Documents/JavaCar/target/surefire/surefirebooter-20251212120035601_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/alex/Documents/GitHub/JavaCar/target/surefire/surefirebooter-20251212120652566_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.17+0"/>
@@ -43,7 +43,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/jh/8pgtwvfd74d9gbcxvzbnjnyh0000gn/T/"/>
     <property name="java.version" value="17.0.17"/>
-    <property name="user.dir" value="/Users/alex/Documents/JavaCar"/>
+    <property name="user.dir" value="/Users/alex/Documents/GitHub/JavaCar"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -56,6 +56,6 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testCalcularIngressosTotals" classname="org.JavaCar.LlogableGestorTest" time="0.001"/>
-  <testcase name="testLlogableImplementacio" classname="org.JavaCar.LlogableGestorTest" time="0.0"/>
+  <testcase name="testCalcularIngressosTotals" classname="org.JavaCar.LlogableGestorTest" time="0.0"/>
+  <testcase name="testLlogableImplementacio" classname="org.JavaCar.LlogableGestorTest" time="0.001"/>
 </testsuite>
