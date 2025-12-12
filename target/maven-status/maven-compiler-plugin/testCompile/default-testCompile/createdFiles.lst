@@ -2,4 +2,5 @@ org/JavaCar/RodaTest.class
 org/JavaCar/MotoTest.class
 org/JavaCar/MotorTest.class
 org/JavaCar/VehicleTest.class
+org/JavaCar/LlogableGestorTest.class
 org/JavaCar/FurgonetaTest.class

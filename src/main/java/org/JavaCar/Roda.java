@@ -2,19 +2,19 @@ package org.JavaCar;
 
 public class Roda {
     private String marca;
-    private int diametre;
+    private int diametro;
 
     //Constructor de la clase Roda
-    public Roda(String marca, int diametre){
+    public Roda(String marca, int diametro){
         this.marca = marca;
-        this.diametre = diametre;
+        this.diametro = diametro;
     }
 
     //Getters
     public String getMarca(){
         return marca;
     }
-    public int getDiametre(){
-        return diametre;
+    public int getDiametro(){
+        return diametro;
     }
 }

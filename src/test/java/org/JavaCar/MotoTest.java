@@ -14,7 +14,7 @@ public class MotoTest {
         assertEquals("5678DEF", moto.getMatricula());
         assertEquals("Yamaha", moto.getMarca());
         assertEquals("R3", moto.getModel());
-        assertEquals(25.0, moto.getPreuBase(), 0.01);
+        assertEquals(25.0, moto.getPrecioBase(), 0.01);
         assertEquals(300, moto.getCilindrada());
     }
 

@@ -7,22 +7,22 @@ import java.util.ArrayList;         //Importamos la clase ArrayList
 public class GestorLlogers   {
 
     //Metodo para calcular los ingresos totales de los vehiculos
-    public static double calcularIngressosTotals(List<Vehicle> vehicles, int dies) {
-        double ingressosTotals = 0;
+    public static double calcularIngresosTotales(List<Vehicle> vehicles, int dias) {
+        double ingresosTotales = 0;
         for (Vehicle vehicle : vehicles) {
-            ingressosTotals += vehicle.calcularPrecio(dies);
+            ingresosTotales += vehicle.calcularPrecio(dias);
         }
-        return ingressosTotals;
+        return ingresosTotales;
     }
 
     //Metodo para filtrar los vehiculos por precio
-    public static List<Vehicle> filtrarPerPreu(List<Vehicle> vehicles, double preuMax) {
-        List<Vehicle> vehiclesFiltrats = new ArrayList<>();
+    public static List<Vehicle> filtrarPorPrecio(List<Vehicle> vehicles, double precioMax) {
+        List<Vehicle> vehiculosFiltrados = new ArrayList<>();
         for (Vehicle vehicle : vehicles) {
-            if (vehicle.calcularPrecio(1) <= preuMax) {
-                vehiclesFiltrats.add(vehicle);
+            if (vehicle.calcularPrecio(1) <= precioMax) {
+                vehiculosFiltrados.add(vehicle);
             }
         }
-        return vehiclesFiltrats;
+        return vehiculosFiltrados;
     }    
 }

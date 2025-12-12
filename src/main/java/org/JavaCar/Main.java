@@ -27,11 +27,11 @@ public class Main {
         vehicles.add(furgoneta);
 
         //Calculamos los ingresos totales de los vehiculos
-        double ingresosTotals = GestorLlogers.calcularIngressosTotals(vehicles, 7);
-        System.out.println("\nLos ingresos totales de los vehiculos por 7 dias son: " + ingresosTotals + " €");
+        double ingresosTotales = GestorLlogers.calcularIngresosTotales(vehicles, 7);
+        System.out.println("\nLos ingresos totales de los vehiculos por 7 dias son: " + ingresosTotales + " €");
 
         //Filtramos los vehiculos por precio
-        List<Vehicle> vehiclesFiltrats = GestorLlogers.filtrarPerPreu(vehicles, 10000);
-        System.out.println("\nLos vehiculos filtrados por precio son: " + vehiclesFiltrats + "\n");
+        List<Vehicle> vehiculosFiltrados = GestorLlogers.filtrarPorPrecio(vehicles, 10000);
+        System.out.println("\nLos vehiculos filtrados por precio son: " + vehiculosFiltrados + "\n");
     }
 }

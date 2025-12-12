@@ -16,9 +16,9 @@ public class VehicleTest {
         assertEquals("5678DEF", vehicle.getMatricula());
         assertEquals("Ford", vehicle.getMarca());
         assertEquals("Focus", vehicle.getModel());
-        assertEquals(28.0, vehicle.getPreuBase(), 0.01);
+        assertEquals(28.0, vehicle.getPrecioBase(), 0.01);
         assertNull(vehicle.getMotor());
-        assertNull(vehicle.getRodes());
+        assertNull(vehicle.getRuedas());
     }
 
     @Test
@@ -30,17 +30,17 @@ public class VehicleTest {
         assertEquals("1234ABC", vehicle.getMatricula());
         assertEquals("Toyota", vehicle.getMarca());
         assertEquals("Corolla", vehicle.getModel());
-        assertEquals(30.0, vehicle.getPreuBase(), 0.01);
+        assertEquals(30.0, vehicle.getPrecioBase(), 0.01);
         assertEquals(motor, vehicle.getMotor());
-        assertEquals(roda, vehicle.getRodes());
+        assertEquals(roda, vehicle.getRuedas());
     }
 
     @Test
     public void testProvaUsVehicle() {
         Vehicle vehicle = new Cotxe("2222XYZ", "Renault", "Clio", 32.0, null, null, "ECO", 5);
-        double preuLloguer = vehicle.calcularPrecio(3); // Ha d'usar la implementació de Cotxe
+        double precioAlquiler = vehicle.calcularPrecio(3); // Ha d'usar la implementació de Cotxe
 
-        assertEquals(96, preuLloguer, 0.01);
+        assertEquals(96, precioAlquiler, 0.01);
     }
 
     @Test

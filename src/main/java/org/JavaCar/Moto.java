@@ -4,8 +4,8 @@ public class Moto extends Vehicle {
     private int cilindrada;
 
     //Constructor de la clase Moto
-    public Moto(String matricula, String marca, String model, double preuBase, Motor motor, Roda rodes, String etiquetaAmbiental, int cilindrada) {
-        super(matricula, marca, model, preuBase, motor, rodes, etiquetaAmbiental);
+    public Moto(String matricula, String marca, String model, double precioBase, Motor motor, Roda ruedas, String etiquetaAmbiental, int cilindrada) {
+        super(matricula, marca, model, precioBase, motor, ruedas, etiquetaAmbiental);
         this.cilindrada = cilindrada;
     }
 
@@ -16,12 +16,12 @@ public class Moto extends Vehicle {
 
     //Metodo para calcular el precio de la moto
     @Override
-    public double calcularPrecio(int dies) {
-        double preu = getPreuBase() * dies;
+    public double calcularPrecio(int dias) {
+        double precio = getPrecioBase() * dias;
         if (cilindrada >= 500) {
-            preu += 5 * dies;
+            precio += 5 * dias;
         }
-        return preu;
+        return precio;
     }
 
     //Metodo ToString de la clase Moto
@@ -31,7 +31,7 @@ public class Moto extends Vehicle {
             "matricula = '" + getMatricula() + '\'' +
             ", marca = '" + getMarca() + '\'' +
             ", model = '" + getModel() + '\'' +
-            ", preuBase = " + getPreuBase() +
+            ", precioBase = " + getPrecioBase() +
             ", cilindrada = " + cilindrada +
             '}';
     }

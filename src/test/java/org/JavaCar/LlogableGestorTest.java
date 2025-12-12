@@ -20,6 +20,6 @@ public class LlogableGestorTest {
         List<Vehicle> vehicles = new ArrayList<>();
         vehicles.add(new Cotxe("1234ABC", "Toyota", "Corolla", 30.0, new Motor("Gasolina", 120), new Roda("Michelin", 17), "ECO", 5));
         vehicles.add(new Moto("5678DEF", "Yamaha", "R6", 25.0, new Motor("Gasolina", 80), new Roda("Pirelli", 16), "ECO", 600));
-        assertEquals(180, GestorLlogers.calcularIngressosTotals(vehicles, 3), 0.01);
+        assertEquals(180, GestorLlogers.calcularIngresosTotales(vehicles, 3), 0.01);
     }
 }

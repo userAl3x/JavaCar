@@ -9,7 +9,7 @@ public class MotorTest {
     public void testCreacioMotor() {
         Motor motor = new Motor("Gasolina", 120);
 
-        assertEquals("Gasolina", motor.getTipus());
+        assertEquals("Gasolina", motor.getTipo());
         assertEquals(120, motor.getPotencia());
     }
 
@@ -17,7 +17,7 @@ public class MotorTest {
     public void testMotorAmbPotenciaZero() {
         Motor motor = new Motor("Gasolina", 0);
 
-        assertEquals("Gasolina", motor.getTipus());
+        assertEquals("Gasolina", motor.getTipo());
         assertEquals(0, motor.getPotencia());
     }
 }

@@ -14,8 +14,8 @@ public class FurgonetaTest {
         assertEquals("1122JKL", furgoneta.getMatricula());
         assertEquals("Ford", furgoneta.getMarca());
         assertEquals("Transit", furgoneta.getModel());
-        assertEquals(40, furgoneta.getPreuBase(), 0.01);
-        assertEquals(800, furgoneta.getCapacitatCarga(), 0.01);
+        assertEquals(40, furgoneta.getPrecioBase(), 0.01);
+        assertEquals(800, furgoneta.getCapacidadCarga(), 0.01);
     }
 
     @Test
@@ -33,10 +33,10 @@ public class FurgonetaTest {
     @Test
     public void testAtributPrivat() throws NoSuchFieldException {
         // Reflexió per accedir als atributs i verificar que són privats
-        Field capacitatCargaField = Furgoneta.class.getDeclaredField("capacitatCarga");
+        Field capacidadCargaField = Furgoneta.class.getDeclaredField("capacidadCarga");
 
 
-        assertTrue("L'atribut 'capacitatCarga' hauria de ser privat", 
-                   java.lang.reflect.Modifier.isPrivate(capacitatCargaField.getModifiers()));
+        assertTrue("L'atribut 'capacidadCarga' hauria de ser privat", 
+                   java.lang.reflect.Modifier.isPrivate(capacidadCargaField.getModifiers()));
     }
 }

@@ -2,27 +2,27 @@ package org.JavaCar;
 
 //Clase Furgoneta heredada de vehicle que implemnta la interfaz llogable
 public class Furgoneta extends Vehicle{
-    private int capacitatCarga;
+    private int capacidadCarga;
 
     //Constructor de la clase Furgoneta
-    public Furgoneta(String matricula, String marca, String model, double preuBase, int capacitatCarga, Motor motor, Roda rodes, String etiquetaAmbiental){
-        super(matricula, marca, model, preuBase, motor, rodes, etiquetaAmbiental);
-        this.capacitatCarga = capacitatCarga;
+    public Furgoneta(String matricula, String marca, String model, double precioBase, int capacidadCarga, Motor motor, Roda ruedas, String etiquetaAmbiental){
+        super(matricula, marca, model, precioBase, motor, ruedas, etiquetaAmbiental);
+        this.capacidadCarga = capacidadCarga;
     }
 
     //Metodo para obtener la capacidad de carga de la furgoneta
-    public int getCapacitatCarga() {
-        return capacitatCarga;
+    public int getCapacidadCarga() {
+        return capacidadCarga;
     }
 
     //Metodo para calcular el precio de la furgoneta    
     @Override
-    public double calcularPrecio(int dies) {
-        double preu = getPreuBase() * dies;
-        if (capacitatCarga > 1000) {
-            preu += 10 * dies;
+    public double calcularPrecio(int dias) {
+        double precio = getPrecioBase() * dias;
+        if (capacidadCarga > 1000) {
+            precio += 10 * dias;
         }
-        return preu;
+        return precio;
     }
 
     //Metodo ToString de la clase Furgoneta
@@ -32,8 +32,8 @@ public class Furgoneta extends Vehicle{
                 "matricula = '" + getMatricula() + '\'' +
                 ", marca = '" + getMarca() + '\'' +
                 ", model = '" + getModel() + '\'' +
-                ", preuBase = " + getPreuBase() +
-                ", capacitatCarga = " + capacitatCarga +
+                ", precioBase = " + getPrecioBase() +
+                ", capacidadCarga = " + capacidadCarga +
             '}';
     }
 }
